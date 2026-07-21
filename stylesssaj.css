@@ -1,7 +1,7 @@
 .container{
     background-color: rgb(30, 155, 183);
     display: grid;
-    grid-template-columns: 1fr 4fr 2fr 6fr;
+  grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     height: 450px;
 }
@@ -31,4 +31,9 @@
 }
 .cat9{
     background-color: palevioletred;
+}
+.cat10,
+.cat11,
+.cat12 {
+    cursor: pointer;
 }
